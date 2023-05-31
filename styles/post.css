@@ -78,3 +78,35 @@ body {
     background-color: white;
     color: black;
 }
+
+.likeCommentSection {
+    text-align: left;
+}
+
+.dot-icon {
+    width: 100px;
+}
+#viewComments {
+    width: 82%;
+    background-color: darkgray;
+    padding: 10px;
+    visibility: hidden;
+    margin-bottom: 30px;
+}
+
+#likeCount{
+    margin-top: 5px;
+
+}
+
+#likeBlog{
+    margin-top:8px;
+    margin-bottom:8px;
+    padding:0px;
+}
+
+#addList{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:0px;
+}

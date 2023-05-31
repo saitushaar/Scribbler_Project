@@ -84,8 +84,27 @@
         </p>
     </div>
 
+    <!--LikeComment Section-->
+    <div class="likeCommentSection">
+        <div class="likeBlogButton">
+            <button type="button" class="btn btn-danger" id="likeBlog" onclick="postLiked()" style=" font-size: 12px;"><i
+                    class="fa fa-thumbs-up" aria-hidden="true"></i> Like</button>
+            <h5 style="font-family: sans-serif;font-weight: 300;" id="likeCount">Be the first one to like this!
+            </h5>
+        </div>
+        <br />
+        <textarea id="userComments" placeholder="Leave a comment..." value="" rows="3" cols="200"></textarea>
+        <br />
+        <button type="button" class="btn btn-danger" id="addList"
+                onclick="addComments(userComments)" style=" font-size: 12px">Comment</button>
+        <h2 style="font-weight: bold;font-size: 18px; margin-top: 10px; text-Align:left">All Comments</h2>
+        <br />
+        <div id="viewComments">
+            <div id="addEventNames"></div>
+        </div>
 
     </div>
+</div>
 </body>
 
 </html>
