@@ -30,3 +30,103 @@ body {
 .right{
     float:right;
 }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card-new{
+        margin: 10px 20px 10px 20px;
+        width:40%;
+        border-radius: 20px;
+        display: flex;
+        background-color: white;
+        overflow: hidden;
+        transition: box-shadow .3s;
+        box-shadow: 0 0  5px 5px #D8BFD8;
+}
+
+.card-new:hover {
+    box-shadow: 0 0  7px 7px rgba(33,33,33,.2);
+}
+
+.side-square-wrapper{
+    height: 170px;
+    width: 17%;
+    text-align: center;
+    background-color: white;
+    padding: 40px 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color:gray;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.custom-card-body{
+    height: 170px;
+    background-color: #DCDCDC;
+    width: 83%;
+    padding: 11px;
+    font-size: 14px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-body-heading{
+    color:gray;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+
+}
+
+.post-text{
+    overflow: hidden;
+    white-space: normal;
+    font-size:15px;
+    height: 4.8em;
+    text-overflow: ellipsis;
+}
+
+.trash-button{
+    float: right;
+    padding-right: 10px;
+    size: 10px;
+    cursor: pointer;
+}
+
+.ellipsis{
+    margin-left: 300px;
+    color: grey;
+    cursor: pointer;
+    padding-right: 130px;
+    margin-bottom: 3px;
+
+
+}
+
+
+#pageTitle{
+    font-family: 'Montez', cursive;
+    font-size: 50px;
+    color: #112fb4;
+    margin: auto;
+    text-decoration: none;
+    margin: 10px 10px 0px 10px;
+}
+
+.sub-heading {
+    font-family: 'Ubuntu Mono';
+    margin-left: 10px;
+}
+
+.modal-signin-container{
+    border: 10px solid white;
+}
