@@ -1,0 +1,32 @@
+body {
+        background:#ffeedd;
+        background-size: cover;
+
+}
+.scrib{
+    font-family: 'Montez', cursive;
+    font-size: 35px;
+    color: blue;
+    margin-left:8px;
+    margin-top:30px;
+}
+.sbh{
+    color: black;
+    font-family: 'Ubuntu Mono', cursive;
+    font-size: 15px;
+    margin-top:0px;
+    margin-left:8px;
+}
+.signbtns{
+    background-color:#0000ff;
+    color:white;
+    width:90px;
+    padding:7px;
+    margin-top:10px;
+    margin-right:10px;
+    border-color:white;
+    font-size:14px;
+}
+.right{
+    float:right;
+}
