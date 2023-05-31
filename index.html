@@ -13,7 +13,69 @@
     <!-- TODO: Include all your code for the header and home page here -->
     <header>
         <span class="scrib">ScriBBler</span>
-        <span class="right"></span>
+        <span class="right">
+
+        <!--Signup Modal-->
+        <button class="signbtns" id="signup">Sign Up</button>
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                 <form>
+                  <p class="get">Get Started</p>
+                  <hr>
+                  <label for="fname">Name</label><br>
+                  <input class="in" type="text" id="fname" name="fname" placeholder="Enter your name" required><br><br>
+
+                  <label for="Username">Username</label><br>
+                  <input type="text" class="in" id="username" name="username" placeholder="Enter your username"  required><br><br>
+
+                  <label for="password">Password</label><br>
+                  <input class="in" type="password" id="password" name="password" placeholder="Enter your password"  required><br><br>
+
+                  <label for="password1">Confirm Password</label><br>
+                  <input class="in" type="password" id="password1" name="password1" placeholder="Re-enter your Password"  required><br><br>
+
+                  <input type="submit" class="signbtn" value="Sign Up">
+                 </form>
+              </div>
+            </div>
+
+        <!--Signin Modal-->
+        <button class="signbtns" id="signin">Sign In</button></span>
+        <div id="myModal1" class="modal1">
+            <div class="modal-content1">
+                <span class="close">&times;</span>
+                <form>
+                    <p class="get">Welcome Back!</p>
+                    <hr>
+                    <label for="Username">Username</label><br>
+                    <input type="text" class="in" id="username2" name="username2" placeholder="Enter your username"  required><br><br>
+
+                    <label for="password">Password</label><br>
+                    <input class="in" type="password" id="password2" name="password2" placeholder="Enter your password"  required><br><br>
+
+                    <input type="submit" class="signbtn" value="Sign In">
+                    <center><p class="mem">Not a member?<button id="signupbtn"> <b>Sign Up</b></button></p></center>
+                </form>
+            </div>
+        </div>
+
+        <!--Create Post Modal-->
+        <div id="myModal2" class="modal2">
+            <div class="modal-content2">
+                <span class="close">&times;</span>
+                <form>
+                    <p class="got" style="font-size:20px;text-align:left;">Pen Your Post</p>
+                    <hr>
+                    <label >Title</label><br>
+                    <input type="text" class="in" id="username3" name="title" style="width:1080px;" placeholder="Enter title of your post" required><br><br>
+
+                    <label for="textarea">Contents</label><br>
+                    <textarea id="review" class="in" id="textarea" name="review" rows="16" cols="145" placeholder="Enter the contents of your post"></textarea><br>
+                    <div id="b"><button class="value2">Create</button></div>
+                </form>
+            </div>
+        </div>
 
 
         <p class="sbh">Explore, Imagine, Create</p>
